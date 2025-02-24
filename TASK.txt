@@ -1,0 +1,16 @@
+Naudojant React.js biblioteką sukurti web aplikaciją pagal duotą dizainą:
+  1. Lange atvaizduoti 6 produktų korteles
+  2. Paspaudus “Pridėti į krepšelį” produktas turi atsirasti krepšelyje ir mygtukas pasidaryti
+  neveiksniu
+  3. Pridėjus produktą į krepšelį, krepšelio skaičius turi pakisti
+  4. Pašalinus produktą iš krepšelio skaičius sumažėja ir produkto mygtukas tampa vėl
+  veiksniu
+  5. Savo nuožiūra pritaikyti dizainą mobiliems įrenginiams
+Bonus užduotis (neprivaloma):
+  1. Sukurti funkcionalumą kuris leidžia pridėti papildomą produktą (šalia jau esamų)
+  išsaugant jį naršyklės atmintyje (papildomi puslapiai dizaine)
+Vertinimo kriterijai:
+  1. Dizaino atkartojimo tikslumas
+  2. Gerųjų praktikų naudojimas
+  3. Typescript panaudojimas (neprivaloma)
+  4. Kodo komentarai
