@@ -8,6 +8,7 @@ type ProductBoxProps = {
   title: string;
   description: string;
   price: string;
+  salePrice?: string;
   inCart: boolean;
   onSale?: boolean;
   onAddToCart: () => void;
@@ -18,6 +19,7 @@ const ProductBox = ({
   title,
   description,
   price,
+  salePrice,
   inCart,
   onSale,
   onAddToCart,
@@ -36,7 +38,10 @@ const ProductBox = ({
           </div>
           <div className="disc">
             <p className="body-1">{description}</p>
-            <p className="body-2">{price}</p>
+            <div className="price-container">
+              {salePrice && <span className="body-2">€{salePrice}</span>}
+              <span className={`body-2 ${onSale ? "linebreak body-3" : ""}`}>{price}</span>
+            </div>
           </div>
         </div>
         <Button text="Pridėti į krepšelį" isInCart={inCart} onClick={onAddToCart} />

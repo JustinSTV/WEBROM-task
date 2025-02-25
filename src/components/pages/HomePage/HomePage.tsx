@@ -31,6 +31,7 @@ const HomePage = () => {
             title={tree.name}
             description={tree.description}
             price={`€${tree.price}`}
+            salePrice={tree.salePrice}
             inCart={tree.inCart}
             onSale={tree.onSale}
             onAddToCart={() => handleAddToCart(tree.id)}

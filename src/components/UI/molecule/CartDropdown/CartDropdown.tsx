@@ -7,6 +7,8 @@ type CartDropdownProps = {
     id: string;
     name: string;
     price: string;
+    salePrice?: string;
+    onSale?: boolean;
     image: string;
   }>;
   onRemoveItem: (id: string) => void;
@@ -23,7 +25,9 @@ const CartDropdown = ({ isOpen, items, onRemoveItem }: CartDropdownProps) => {
             <img src={item.image} alt={item.name} />
             <div className="item-details">
               <h6>{item.name}</h6>
-              <p className="body-1">€{item.price}</p>
+              <p className="body-1">
+                €{item.onSale && item.salePrice ? item.salePrice : item.price}
+              </p>
             </div>
             <FaTrash onClick={() => onRemoveItem(item.id)} className="remove-item" />
           </div>
