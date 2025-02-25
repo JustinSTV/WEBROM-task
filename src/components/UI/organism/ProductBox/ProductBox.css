@@ -2,11 +2,11 @@ div.product-box {
   position: relative;
   background-color: var(--white);
   border-radius: 20px;
-  width: 400px;
+  width: 100%;
+  /* max-width: 400px; */
   height: auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 1rem;
-  /* clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 80%, 50% 100%, 0 100%); */
 
   > div.content {
     display: grid;
@@ -14,7 +14,7 @@ div.product-box {
     grid-template-rows: 220px repeat(3, auto);
 
     > div.imageBox {
-      grid-area: 1/1/5/2;
+      grid-area: 1/1/4/2;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -26,7 +26,7 @@ div.product-box {
     }
 
     > div.infoBox {
-      grid-area: 1/2/4/3;
+      grid-area: 1/2/3/3;
       display: grid;
 
       > div.titleAndHeart {
@@ -72,7 +72,28 @@ div.product-box {
       }
     }
     > button {
-      grid-area: 4/2/5/3;
+      grid-area: 3/2/4/3;
     }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  div.product-box > div.content {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+  }
+
+  div.product-box > div.content > div.imageBox {
+    grid-area: auto;
+  }
+
+  div.product-box > div.content > div.infoBox {
+    grid-area: auto;
+  }
+
+  div.product-box > div.content > button {
+    grid-area: auto;
+    width: 100%;
   }
 }

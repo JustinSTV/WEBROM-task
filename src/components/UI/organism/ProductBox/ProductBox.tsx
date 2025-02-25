@@ -26,6 +26,7 @@ const ProductBox = ({
 }: ProductBoxProps) => {
   return (
     <div className="product-box">
+      {/* akcijos banner, jeigu preke onSale=true */}
       <SaleBanner show={!!onSale} />
       <div className="content">
         <div className="imageBox">
@@ -38,8 +39,9 @@ const ProductBox = ({
           </div>
           <div className="disc">
             <p className="body-1">{description}</p>
+            {/* rodome kaina su akcija jai tokia yra */}
             <div className="price-container">
-              {salePrice && <span className="body-2">€{salePrice}</span>}
+              {salePrice && <span className="body-2">{salePrice}€</span>}
               <span className={`body-2 ${onSale ? "linebreak body-3" : ""}`}>{price}</span>
             </div>
           </div>

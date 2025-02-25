@@ -8,3 +8,11 @@ nav.breadcrumb {
     display: flex;
   }
 }
+
+@media screen and (max-width: 768px) {
+  nav.breadcrumb {
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

@@ -46,3 +46,20 @@ div.cart-dropdown {
     cursor: pointer;
   }
 }
+
+@media screen and (max-width: 768px) {
+  div.cart-dropdown {
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: auto;
+    border-radius: 10px 10px 0 0;
+  }
+
+  div.cart-dropdown > div.cart-items {
+    max-height: 50vh;
+  }
+}

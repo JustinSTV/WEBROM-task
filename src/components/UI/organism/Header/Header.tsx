@@ -8,8 +8,9 @@ import { SlHandbag } from "react-icons/sl";
 import CartDropdown from "../../molecule/CartDropdown/CartDropdown";
 
 type HeaderProps = {
-  cartCount: number;
+  cartCount: number; // krepšelio kiekis
   cartItems: Array<{
+    //krepelio masyvas
     id: string;
     name: string;
     price: string;
@@ -19,10 +20,11 @@ type HeaderProps = {
 };
 
 const Header = ({ cartCount, cartItems, onRemoveFromCart }: HeaderProps) => {
+  // krepšelio rodymas/slepimas
   const [isCartOpen, setIsCartOpen] = useState(false);
 
   return (
-    <header>
+    <header className="main-header">
       <div className="logo-nav">
         <img src="/public/logo-8 2.svg" alt="logo" />
         <nav>
@@ -39,6 +41,7 @@ const Header = ({ cartCount, cartItems, onRemoveFromCart }: HeaderProps) => {
         <CiUser />
         <div className="cart-icon">
           <SlHandbag onClick={() => setIsCartOpen(!isCartOpen)} />
+          {/* Krepšialio prekiu skaičius */}
           {cartCount > 0 && <span className="caption-1 cart-count">{cartCount}</span>}
           <CartDropdown isOpen={isCartOpen} items={cartItems} onRemoveItem={onRemoveFromCart} />
         </div>
