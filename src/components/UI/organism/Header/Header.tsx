@@ -4,7 +4,11 @@ import { TfiWorld } from "react-icons/tfi";
 import { CiUser } from "react-icons/ci";
 import { SlHandbag } from "react-icons/sl";
 
-const Header = () => {
+type HeaderProps = {
+  cartCount: number;
+};
+
+const Header = ({ cartCount }: HeaderProps) => {
   return (
     <header>
       <div className="logo-nav">
@@ -21,7 +25,10 @@ const Header = () => {
       <div className="icons">
         <TfiWorld />
         <CiUser />
-        <SlHandbag />
+        <div className="cart-icon">
+          <SlHandbag />
+          {cartCount > 0 && <span className="cart-count">{cartCount}</span>}
+        </div>
       </div>
     </header>
   );

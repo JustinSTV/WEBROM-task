@@ -6,13 +6,14 @@ import data from "../../../../data.json";
 
 const HomePage = () => {
   const [trees, setTrees] = useState(data.trees);
+  const cartCount = trees.filter((tree) => tree.inCart).length;
 
   const handleAddToCart = (id: string) => {
     setTrees(trees.map((tree) => (tree.id === id ? { ...tree, inCart: true } : tree)));
   };
   return (
     <section>
-      <Header />
+      <Header cartCount={cartCount} />
       <div className="products-grid">
         {trees.map((tree) => (
           <ProductBox

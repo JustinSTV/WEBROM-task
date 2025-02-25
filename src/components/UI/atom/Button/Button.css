@@ -13,6 +13,22 @@ button {
   }
 }
 
-button:hover {
+button:hover:not(:disabled) {
   color: var(--blue-1);
+  border-color: var(--blue-1);
+  cursor: pointer;
+}
+
+button.in-cart {
+  background-color: #e8f5e9;
+  border-color: #4caf50;
+  color: #2e7d32;
+}
+
+button.in-cart svg {
+  color: #2e7d32;
+}
+
+button:disabled {
+  cursor: default;
 }

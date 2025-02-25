@@ -26,5 +26,26 @@ header {
     > svg {
       font-size: 25px;
     }
+    > .cart-icon {
+      position: relative;
+      > svg {
+        font-size: 25px;
+      }
+
+      > span.cart-count {
+        position: absolute;
+        top: -8px;
+        right: -8px;
+        background-color: var(--red);
+        color: white;
+        border-radius: 50%;
+        width: 18px;
+        height: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+      }
+    }
   }
 }
