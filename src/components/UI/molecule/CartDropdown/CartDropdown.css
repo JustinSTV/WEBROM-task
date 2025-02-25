@@ -1,0 +1,48 @@
+div.cart-dropdown {
+  background-color: var(--white);
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  border-radius: 10px;
+  z-index: 1000;
+
+  > div.cart-items {
+    max-height: 300px;
+    overflow-y: auto;
+
+    > div.cart-item {
+      display: flex;
+      align-items: center;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--gray-2);
+
+      > img {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+      }
+
+      > div.item-details {
+        flex-grow: 1;
+      }
+      > .remove-item {
+        color: var(--red);
+        cursor: pointer;
+      }
+    }
+  }
+
+  > button.checkout-btn {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: var(--blue-1);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}

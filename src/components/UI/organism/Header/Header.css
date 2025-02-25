@@ -24,19 +24,28 @@ header {
     align-items: center;
     gap: 20px;
     > svg {
-      font-size: 25px;
+      font-size: 30px;
     }
+    > svg:hover {
+      cursor: pointer;
+      color: var(--blue-1);
+    }
+
     > .cart-icon {
       position: relative;
       > svg {
-        font-size: 25px;
+        font-size: 30px;
+      }
+      > svg:hover {
+        cursor: pointer;
+        color: var(--blue-1);
       }
 
       > span.cart-count {
         position: absolute;
         top: -8px;
         right: -8px;
-        background-color: var(--red);
+        background-color: var(--blue-1);
         color: white;
         border-radius: 50%;
         width: 18px;
