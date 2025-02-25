@@ -1,6 +1,7 @@
 import { HiHeart } from "react-icons/hi";
 import "./ProductBox.css";
 import Button from "../../atom/Button/Button";
+import SaleBanner from "../../atom/SaleBanner/SaleBanner";
 
 type ProductBoxProps = {
   image: string;
@@ -8,12 +9,22 @@ type ProductBoxProps = {
   description: string;
   price: string;
   inCart: boolean;
+  onSale?: boolean;
   onAddToCart: () => void;
 };
 
-const ProductBox = ({ image, title, description, price, inCart, onAddToCart }: ProductBoxProps) => {
+const ProductBox = ({
+  image,
+  title,
+  description,
+  price,
+  inCart,
+  onSale,
+  onAddToCart,
+}: ProductBoxProps) => {
   return (
     <div className="product-box">
+      <SaleBanner show={!!onSale} />
       <div className="content">
         <div className="imageBox">
           <img src={image} alt={title} />

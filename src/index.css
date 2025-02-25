@@ -45,7 +45,8 @@
   --font-size-body-4: 14px;
 
   --font-size-button: 16px;
-  --font-size-caption: 14px;
+  --font-size-caption-1: 12px;
+  --font-size-caption-2: 14px;
 
   /* Line Heights */
   --line-height-h1: 42px;
@@ -60,7 +61,8 @@
   --line-height-body-4: 22px;
 
   --line-height-button: 22px;
-  --line-height-caption: 16px;
+  --line-height-caption-1: 16px;
+  --line-height-caption-2: 19px;
 }
 
 * {
@@ -129,6 +131,13 @@ h6 {
 .btn-2 {
   font-size: var(--font-size-caption);
   line-height: var(--line-height-button);
+  font-family: var(--font-secondary);
+  font-weight: var(--font-semibold);
+}
+
+.caption-1 {
+  font-size: var(--font-size-caption-1);
+  line-height: var(--line-height-caption-1);
   font-family: var(--font-secondary);
   font-weight: var(--font-semibold);
 }

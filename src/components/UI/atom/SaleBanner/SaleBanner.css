@@ -1,0 +1,16 @@
+div.sale-banner {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  background-color: var(--red);
+  color: var(--white);
+  padding: 5px 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+  > span {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-semibold);
+  }
+}

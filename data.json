@@ -4,7 +4,9 @@
       "id": "1",
       "name": "Netikrožė",
       "description": "Netikrožė buvo pirmasis augalas, kuris atsirado robotų soduose, nes ji niekada nepraranda žiedų. Kiekvienas, matydamas ją, negalėjo patikėti, kad ji niekada neišblunka.",
-      "price": "205.82",
+      "price": "311.20",
+      "salePrice": "205.82",
+      "onSale": true,
       "inCart": false,
       "image": "./public/netikroze.png"
     },
@@ -20,7 +22,9 @@
       "id": "3",
       "name": "Feikmedis",
       "description": "Feikmedis augo mieste, kuriame niekas nesirūpino tikrais medžiais, todėl jis buvo mylimas už savo pastovumą ir žalią spalvą. Jis niekada neprarado lapų, net ir šaltuoju metų laiku.",
-      "price": "177.14",
+      "price": "215.66",
+      "salePrice": "177.14",
+      "onSale": true,
       "inCart": false,
       "image": "./public/feikmedis.png"
     },
@@ -36,7 +40,9 @@
       "id": "5",
       "name": "Nevystutis",
       "description": "Nevystutis buvo žinomas dėl savo neįtikėtino sugebėjimo niekada nepasenti. Jo žiedai visada liko švieži ir gyvybingi, todėl jis tapo visų mėgstamiausiu dirbtiniu augalu.",
-      "price": "289.17",
+      "price": "401.11",
+      "salePrice": "289.17",
+      "onSale": true,
       "inCart": false,
       "image": "./public/nevystutis.png"
     },
