@@ -1,6 +1,7 @@
 import { HiHeart } from "react-icons/hi";
 import "./ProductBox.css";
 import { SlHandbag } from "react-icons/sl";
+import Button from "../../atom/Button/Button";
 
 type ProductBoxProps = {
   image: string;
@@ -28,7 +29,7 @@ const ProductBox = ({ image, title, description, price, inCart, onAddToCart }: P
             <p className="body-2">{price}</p>
           </div>
         </div>
-        <button className="btn-2">Pridėti į krepšelį</button>
+        <Button text="Pridėti į krepšelį" isInCart={inCart} />
       </div>
     </div>
   );

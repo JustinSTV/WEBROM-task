@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./HomePage.css";
 import Header from "../../UI/organism/Header/Header";
-import ProductBox from "../../UI/molecule/ProductBox";
+import ProductBox from "../../UI/organism/ProductBox/ProductBox";
 import data from "../../../../data.json";
 
 const HomePage = () => {
