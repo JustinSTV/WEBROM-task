@@ -1,0 +1,52 @@
+{
+  "trees": [
+    {
+      "id": "1",
+      "name": "Netikrožė",
+      "description": "Netikrožė buvo pirmasis augalas, kuris atsirado robotų soduose, nes ji niekada nepraranda žiedų. Kiekvienas, matydamas ją, negalėjo patikėti, kad ji niekada neišblunka.",
+      "price": "205.82",
+      "inCart": false,
+      "image": "./public/netikroze.png"
+    },
+    {
+      "id": "2",
+      "name": "Plastalapis",
+      "description": "Plastalapis tapo mėgstamiausiu augalu tarp vaikų, nes jis buvo toks lengvas, kad net vėjo gūsiai jo nenunešdavo. Nepaisant to, kad jis neaugo, visada turėjo tobulus, švelnius lapus.",
+      "price": "144.85",
+      "inCart": false,
+      "image": "./public/plastalapis.png"
+    },
+    {
+      "id": "3",
+      "name": "Feikmedis",
+      "description": "Feikmedis augo mieste, kuriame niekas nesirūpino tikrais medžiais, todėl jis buvo mylimas už savo pastovumą ir žalią spalvą. Jis niekada neprarado lapų, net ir šaltuoju metų laiku.",
+      "price": "177.14",
+      "inCart": false,
+      "image": "./public/feikmedis.png"
+    },
+    {
+      "id": "4",
+      "name": "Sintetukas",
+      "description": "Sintetukas – tai augalas, kuris sugebėjo įkvėpti naują gyvenimą dirbtiniuose soduose, nes jo lapai niekada nesusiraukšlėjo. Žmonės dažnai stebėjosi, kaip jis sugeba išlaikyti savo tobulą formą be jokios priežiūros.",
+      "price": "32.88",
+      "inCart": false,
+      "image": "./public/sintetukas.png"
+    },
+    {
+      "id": "5",
+      "name": "Nevystutis",
+      "description": "Nevystutis buvo žinomas dėl savo neįtikėtino sugebėjimo niekada nepasenti. Jo žiedai visada liko švieži ir gyvybingi, todėl jis tapo visų mėgstamiausiu dirbtiniu augalu.",
+      "price": "289.17",
+      "inCart": false,
+      "image": "./public/nevystutis.png"
+    },
+    {
+      "id": "6",
+      "name": "Žaliuoklis",
+      "description": "Žaliuoklis buvo pirmasis dirbtinis augalas, kuris sugebėjo puikiai atkartoti tikrų augalų žalią atspalvį, todėl niekas nesugebėjo jo atskirti nuo gyvo. Netikėtai jis tapo populiariausiu biurų augalu, nes niekada neprarado savo žavesio.",
+      "price": "205.82",
+      "inCart": false,
+      "image": "./public/zaliuoklis.png"
+    }
+  ]
+}

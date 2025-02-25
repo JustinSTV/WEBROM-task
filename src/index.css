@@ -106,8 +106,28 @@ h6 {
   font-weight: var(--font-bold);
 }
 
+.body-1 {
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  font-family: var(--font-secondary);
+  font-weight: var(--font-regular);
+}
+
+.body-2 {
+  font-size: var(--font-size-body-2);
+  line-height: var(--line-height-body-2);
+  font-family: var(--font-secondary);
+  font-weight: var(--font-semibold);
+}
+
 .btn-1 {
   font-size: var(--font-size-button);
+  line-height: var(--line-height-button);
+  font-family: var(--font-secondary);
+  font-weight: var(--font-semibold);
+}
+.btn-2 {
+  font-size: var(--font-size-caption);
   line-height: var(--line-height-button);
   font-family: var(--font-secondary);
   font-weight: var(--font-semibold);
