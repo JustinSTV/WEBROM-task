@@ -1,6 +1,6 @@
 button {
   background-color: var(--white);
-  border: 1px solid black;
+  border: 1px solid var(--gray-1);
   border-radius: 10px;
   padding: 10px;
   display: flex;
@@ -20,13 +20,12 @@ button:hover:not(:disabled) {
 }
 
 button.in-cart {
-  background-color: #e8f5e9;
-  border-color: #4caf50;
-  color: #2e7d32;
+  background-color: var(--gray-2);
+  color: var(--gray-1);
 }
 
 button.in-cart svg {
-  color: #2e7d32;
+  color: var(--gray-1);
 }
 
 button:disabled {

@@ -3,7 +3,7 @@ import "./HomePage.css";
 import Header from "../../UI/organism/Header/Header";
 import ProductBox from "../../UI/organism/ProductBox/ProductBox";
 import data from "../../../../data.json";
-import Breadcrumb from "../../UI/molecule/Breadcrumb/Breadcrumb";
+import Hero from "../../UI/organism/Hero/Hero";
 
 const HomePage = () => {
   const [trees, setTrees] = useState(data.trees);
@@ -24,7 +24,7 @@ const HomePage = () => {
         cartItems={cartItems}
         onRemoveFromCart={handleRemoveFromCart}
       />
-      <Breadcrumb />
+      <Hero />
       <section className="products-grid">
         {trees.map((tree) => (
           <ProductBox

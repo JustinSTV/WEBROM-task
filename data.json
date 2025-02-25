@@ -8,7 +8,7 @@
       "salePrice": "205.82",
       "onSale": true,
       "inCart": false,
-      "image": "./public/netikroze.png"
+      "image": "netikroze.png"
     },
     {
       "id": "2",
@@ -16,7 +16,7 @@
       "description": "Plastalapis tapo mėgstamiausiu augalu tarp vaikų, nes jis buvo toks lengvas, kad net vėjo gūsiai jo nenunešdavo. Nepaisant to, kad jis neaugo, visada turėjo tobulus, švelnius lapus.",
       "price": "144.85",
       "inCart": false,
-      "image": "./public/plastalapis.png"
+      "image": "plastalapis.png"
     },
     {
       "id": "3",
@@ -26,7 +26,7 @@
       "salePrice": "177.14",
       "onSale": true,
       "inCart": false,
-      "image": "./public/feikmedis.png"
+      "image": "feikmedis.png"
     },
     {
       "id": "4",
@@ -34,7 +34,7 @@
       "description": "Sintetukas – tai augalas, kuris sugebėjo įkvėpti naują gyvenimą dirbtiniuose soduose, nes jo lapai niekada nesusiraukšlėjo. Žmonės dažnai stebėjosi, kaip jis sugeba išlaikyti savo tobulą formą be jokios priežiūros.",
       "price": "32.88",
       "inCart": false,
-      "image": "./public/sintetukas.png"
+      "image": "sintetukas.png"
     },
     {
       "id": "5",
@@ -44,7 +44,7 @@
       "salePrice": "289.17",
       "onSale": true,
       "inCart": false,
-      "image": "./public/nevystutis.png"
+      "image": "nevystutis.png"
     },
     {
       "id": "6",
@@ -52,7 +52,7 @@
       "description": "Žaliuoklis buvo pirmasis dirbtinis augalas, kuris sugebėjo puikiai atkartoti tikrų augalų žalią atspalvį, todėl niekas nesugebėjo jo atskirti nuo gyvo. Netikėtai jis tapo populiariausiu biurų augalu, nes niekada neprarado savo žavesio.",
       "price": "205.82",
       "inCart": false,
-      "image": "./public/zaliuoklis.png"
+      "image": "zaliuoklis.png"
     }
   ]
 }

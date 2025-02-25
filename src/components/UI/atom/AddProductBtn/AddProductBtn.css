@@ -1,0 +1,16 @@
+button.addProductBtn {
+  background: var(--white);
+  border: none;
+  > svg {
+    color: var(--black);
+  }
+}
+
+button.addProductBtn:hover {
+  cursor: pointer;
+  color: var(--white);
+  background: var(--blue-1);
+  > svg {
+    color: var(--white);
+  }
+}

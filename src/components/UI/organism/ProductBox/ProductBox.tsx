@@ -1,6 +1,6 @@
 import { HiHeart } from "react-icons/hi";
 import "./ProductBox.css";
-import Button from "../../atom/Button/Button";
+import AddToCartBtn from "../../atom/AddToCartBtn/AddToCartBtn";
 import SaleBanner from "../../atom/SaleBanner/SaleBanner";
 
 type ProductBoxProps = {
@@ -44,7 +44,7 @@ const ProductBox = ({
             </div>
           </div>
         </div>
-        <Button text="Pridėti į krepšelį" isInCart={inCart} onClick={onAddToCart} />
+        <AddToCartBtn text="Pridėti į krepšelį" isInCart={inCart} onClick={onAddToCart} />
       </div>
     </div>
   );

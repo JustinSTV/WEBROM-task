@@ -39,7 +39,7 @@ const Header = ({ cartCount, cartItems, onRemoveFromCart }: HeaderProps) => {
         <CiUser />
         <div className="cart-icon">
           <SlHandbag onClick={() => setIsCartOpen(!isCartOpen)} />
-          {cartCount > 0 && <span className="cart-count">{cartCount}</span>}
+          {cartCount > 0 && <span className="caption-1 cart-count">{cartCount}</span>}
           <CartDropdown isOpen={isCartOpen} items={cartItems} onRemoveItem={onRemoveFromCart} />
         </div>
       </div>
